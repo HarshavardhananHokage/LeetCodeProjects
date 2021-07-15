@@ -2,7 +2,7 @@ package com.harsh.leetcode.onetohundred;
 
 import java.util.Arrays;
 
-public class One {
+public class Problem1 {
 
     public int[] twoSum(int[] nums, int target) {
 
@@ -21,9 +21,9 @@ public class One {
     ********COPY THE BELOW LINES IN METHOD********
      */
     public void copyToMainForTest() {
-        One one = new One();
-        System.out.println(Arrays.toString(one.twoSum(new int[]{2, 7, 11, 15}, 9)));
-        System.out.println(Arrays.toString(one.twoSum(new int[]{3,2,4}, 6)));
-        System.out.println(Arrays.toString(one.twoSum(new int[]{3, 3}, 6)));
+        Problem1 problem1 = new Problem1();
+        System.out.println(Arrays.toString(problem1.twoSum(new int[]{2, 7, 11, 15}, 9)));
+        System.out.println(Arrays.toString(problem1.twoSum(new int[]{3,2,4}, 6)));
+        System.out.println(Arrays.toString(problem1.twoSum(new int[]{3, 3}, 6)));
     }
 }
